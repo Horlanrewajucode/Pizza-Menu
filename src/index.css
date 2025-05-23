@@ -171,3 +171,14 @@ body {
   background-color: #e9bb24;
 }
 
+@media (min-width:300px) and (max-width:470px){
+  .pizzas{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .order{
+    margin-top: 20px;
+  }
+}
+

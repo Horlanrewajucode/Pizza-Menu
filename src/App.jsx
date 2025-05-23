@@ -47,10 +47,16 @@ function App() {
   return (
     <div>
       <Header />
-      <menu />
+      <Menu />
       <Footer/>
     </div>
   );
+}
+
+function Image() {
+  <div>
+    <img src="Pizzas/spinaci.jpg" alt="image" />
+  </div>;
 }
 
 function Header() {
@@ -67,7 +73,7 @@ function Menu() {
   const numPizzas = pizzas.length
 
   return (
-    <main className="main">
+    <main className="menu">
     <h2>Our menu</h2>
 
     {numPizzas > 0 ? (
